@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+	<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Box personal portfolio Template</title>
-    <link rel="icon" href="img/fav.png" type="image/x-icon">
+    <link rel="icon" href="img/ICON/K.png" type="image/x-icon">
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -42,231 +42,216 @@
     <!-- end Preloader -->
 
     <div class="container-fluid">
-        <!-- box header -->
-        <header class="box-header">
-            <div class="box-logo">
-                <a href="index.html"><img src="img/logo.png" width="80" alt="Logo"></a>
-            </div>
+         <header class="box-header">
+          
             <!-- box-nav -->
             <a class="box-primary-nav-trigger" href="#0">
                 <span class="box-menu-text">Menu</span><span class="box-menu-icon"></span>
             </a>
             <!-- box-primary-nav-trigger -->
         </header>
-        <!-- end box header -->
+		<section class="box-intro">
+            <div class="table-cell">
+                <h1>Katya Donovan</h1>
+				<h2>Portfolio and Personal Website</h2>
+            </div>
+        </section>
 
         <!-- nav -->
         <nav>
             <ul class="box-primary-nav">
-                <li class="box-label">About me</li>
-
-                <li><a href="index.html">Intro</a> <i class="ion-ios-circle-filled color"></i></li>
-                <li><a href="about.html">About me</a></li>
-                <li><a href="services.html">services</a></li>
-                <li><a href="portfolio.html">portfolio</a></li>
-                <li><a href="contact.html">contact me</a></li>
-
-
-
-                <li class="box-label">Follow me</li>
-
-                <li class="box-social"><a href="#0"><i class="ion-social-facebook"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-instagram-outline"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-twitter"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-dribbble"></i></a></li>
+               <li class="box-label">Take a Gander and Stay a While</li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="index.html">portfolio</a> </li>
+                <li><a href="contact.html">contact</a></li>
             </ul>
         </nav>
         <!-- end nav -->
-
-        <!-- box-intro -->
-        <section class="box-intro">
-            <div class="table-cell">
-                <h1 class="box-headline letters rotate-2">
-                    <span class="box-words-wrapper">
-                        <b class="is-visible">design.</b>
-                        <b>&nbsp;coding.</b>
-                        <b>graphic.</b>
-                    </span>
-		        </h1>
-                <h5>everything you need to build your personal portfolio</h5>
-            </div>
-
-            <div class="mouse">
-                <div class="scroll"></div>
-            </div>
-        </section>
-        <!-- end box-intro -->
     </div>
 
-    <!-- portfolio div -->
-    <div class="portfolio-div">
-        <div class="portfolio">
-            <div class="no-padding portfolio_container">
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6  fashion logo">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="img/portfolio/01.jpg" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Mockups in seconds</span>
-                                    <em>Fashion / Logo</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
 
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 ads graphics">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="img/portfolio/03.jpg" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Floating mockups</span>
-                                    <em>Ads / Graphics</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+   
+    <!-- main container -->
+    <div class="main-container portfolio-inner clearfix">
+        <!-- portfolio div -->
+        <div class="portfolio-div">
+            <div class="portfolio">
+                <!-- portfolio_filter -->
+                <div class="categories-grid wow fadeInLeft">
+                    <nav class="categories text-center">
+                        <ul class="portfolio_filter">
+                            <li><a href="" class="active" data-filter="*">All</a></li>
+                            <li><a href="" data-filter=".mechanicaldesign">Mechanical Design</a></li>
+                            <li><a href="" data-filter=".fabrication">Fabrication</a></li>
+                            <li><a href="" data-filter=".prototyping">Prototyping</a></li>
+                            <li><a href="" data-filter=".materials">Materials</a></li>
+                            <li><a href="" data-filter=".design">Design</a></li>
+							<li><a href="" data-filter=".testing">Testing</a></li>
+							<li><a href="" data-filter=".analysis">Analysis</a></li>
+                        </ul>
+                    </nav>
                 </div>
-                <!-- end single work -->
+                <!-- portfolio_filter -->
 
-                <!-- single work -->
-                <div class="col-md-6 col-sm-12 photography">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="img/portfolio/02.jpg" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Photorealistic smartwatch</span>
-                                    <em>Photography</em>
+                <!-- portfolio_container -->
+                <div class="no-padding portfolio_container clearfix">
+                    <!-- single work -->
+                    <div class="col-md-4 col-sm-6  mechanicaldesign fabrication analysis">
+                        <a href="oem.html" class="portfolio_item">
+                            <img src="img/portfolio/formula.jpeg" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>Olin Electric Motorsports</span>
+                                        <em>Mechanical Design / Fabrication / Analysis </em>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
+                        </a>
+                    </div>
+                    <!-- end single work -->
 
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 fashion ads">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="img/portfolio/04.jpg" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Held by hands</span>
-                                    <em>Fashion / Ads</em>
+                    <!-- single work -->
+                    <div class="col-md-4 col-sm-6 mechanicaldesign prototyping analysis">
+                        <a href="boosted.html" class="portfolio_item">
+                            <img src="img/portfolio/boosted.jpg" alt="image" class="img-responsive" height="500" width="500" align="middle" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>Boosted Boards</span>
+                                        <em>Mechanical Design / Prototyping / Analysis</em>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
+                        </a>
+                    </div>
+                    <!-- end single work -->
 
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 graphics ads">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="img/portfolio/05.jpg" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Mobile devices</span>
-                                    <em>Graphics / Ads</em>
+                    <!-- single work -->
+                    <div class="col-md-4 col-sm-12  design mechanicaldesign prototyping">
+                        <a href="aest.html" class="portfolio_item">
+                            <img src="img/portfolio/aest.jpg" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>Appropriate Energy Saving Technologies</span>
+                                        <em>Design / Mechanical Design / Prototyping</em>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
+                        </a>
+                    </div>
+                    <!-- end single work -->
 
-                <!-- single work -->
-                <div class="col-md-6 col-sm-12 photography">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="img/portfolio/010.jpg" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Photorealistic smartwatch</span>
-                                    <em>Photography</em>
+                    <!-- single work -->
+                    <div class="col-md-4 col-sm-6 materials">
+                        <a href="titanium.html" class="portfolio_item">
+                            <img src="img/portfolio/infographic.png" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>Titanium Heat Treatment</span>
+                                        <em>Material Science </em>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
+                        </a>
+                    </div>
+                    <!-- end single work -->
+ 					
+					<!-- single work -->
+                    <div class="col-md-4 col-sm-6 testing analysis">
+                        <a href="bike.html" class="portfolio_item">
+                            <img src="img/portfolio/bike.png" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>Analysis of a Bike Frame</span>
+                                        <em>Testing / Analysis</em>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- end single work -->
+					
+					 <!-- single work -->
+                    <div class="col-md-4 col-sm-6 mechanicaldesign design">
+                        <a href="kinetic.html" class="portfolio_item">
+                            <img src="img/portfolio/complex.jpg" alt="image" class="img-responsive" height="500" width="500" align="middle" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>Kinetic Sculpture</span>
+                                        <em>Mechanical Design / Design</em>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- end single work -->
+					
+                    <!-- single work -->
+                    <div class="col-md-4 col-sm-6 fabrication design">
+                        <a href="chair.html" class="portfolio_item">
+                            <img src="img/chair1.jpg" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>Ergonomic Fishbone Design</span>
+                                        <em>Fabrication / Design</em>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- end single work -->
 
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 graphics ads">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="img/portfolio/06.jpg" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Mobile devices</span>
-                                    <em>Graphics / Ads</em>
+                    <!-- single work -->
+                    <div class="col-md-4 col-sm-12 mechanicaldesign">
+                        <a href="shaketable.html" class="portfolio_item">
+                            <img src="img/portfolio/Shake.png" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>Earthquake Simulator Table</span>
+                                        <em>Mechanical Design</em>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
+                        </a>
+                    </div>
+                    <!-- end single work -->
 
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 graphics ads">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="img/portfolio/07.jpg" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Mobile devices</span>
-                                    <em>Graphics / Ads</em>
+                    <!-- single work -->
+                    <div class="col-md-4 col-sm-6 prototyping mechanicaldesign">
+                        <a href="scanner.html" class="portfolio_item">
+                            <img src="img/portfolio/scanner.jpg" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>3D Scanner</span>
+                                        <em>Prototyping / Mechanical Design</em>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
+                        </a>
+                    </div>
+                    <!-- end single work -->
 
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 graphics ads">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="img/portfolio/08.jpg" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Mobile devices</span>
-                                    <em>Graphics / Ads</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
+                 
 
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 graphics ads">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="img/portfolio/09.jpg" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Mobile devices</span>
-                                    <em>Graphics / Ads</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+                   
+
                 </div>
-                <!-- end single work -->
+                <!-- end portfolio_container -->
             </div>
-            <!-- end portfolio_container -->
+            <!-- portfolio -->
         </div>
-        <!-- portfolio -->
+        <!-- end portfolio div -->
     </div>
-    <!-- end portfolio div -->
+    <!-- end main container -->
+
 
     <!-- footer -->
     <footer>
@@ -279,6 +264,7 @@
     <!-- back to top -->
     <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
     <!-- end back to top -->
+
 
 
 
